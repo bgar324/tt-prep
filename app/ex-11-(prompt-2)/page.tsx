@@ -81,7 +81,7 @@ export default function App() {
   return (
     <div className="p-4">
       <h1>Products</h1>
-
+ 
       {error && (
         <div className="mb-2 text-red-600">
           {error}
