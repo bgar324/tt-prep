@@ -130,7 +130,7 @@ export default function App() {
       {loading && <div className="mb-2">Loading...</div>}
 
       {selected && (
-        <div className="mt-4 border p-4 rounded w-full bg-gray-50 mb-10 rounded-2xl">
+        <div className="mt-4 border p-4 w-full bg-gray-50 mb-10 rounded-2xl">
           <h2 className="text-xl font-bold mb-2">Details</h2>
           <p>
             <strong>ID:</strong> {selected.id}
